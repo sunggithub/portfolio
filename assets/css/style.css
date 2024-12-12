@@ -770,6 +770,7 @@ main {
   color: #fff;
   font-family: Arial, sans-serif;
   line-height: 1.5;
+  text-align: center;
 }
 
 .clients-item img: hover {
