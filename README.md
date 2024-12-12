@@ -26,5 +26,5 @@ git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
 
 ## Contact
 
-If you want to contact me you can reach me at [facebook]([https://www.twitter.com/codewithsadee](https://www.facebook.com/profile.php?id=100080072155766)).
+If you want to contact me you can reach me at [facebook](https://www.facebook.com/profile.php?id=100080072155766).
 
