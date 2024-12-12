@@ -133,7 +133,22 @@ for (let i = 0; i < formInputs.length; i++) {
 
   });
 }
+// handle form submit event
+form.addEventListener("submit", function(event) {
+  event.preventDefault(); // Prevent default form submission
 
+  // Get form data
+  const formData = new FormData(form);
+  const fullname = formData.get("fullname");
+  const email = formData.get("email");
+  const message = formData.get("message");
+
+  // Set up mailto link
+  const mailtoLink = `mailto:transamsung01@gmail.com?subject=Contact Form Submission&body=Full Name: ${fullname}%0AEmail: ${email}%0AMessage: ${message}`;
+
+  // Open default email client with the mailto link
+  window.location.href = mailtoLink;
+});
 
 
 // page navigation variables
