@@ -753,7 +753,7 @@ main {
   filter: grayscale(1);
   transition: var(--transition-1);
 }
-
+.client-description { font-size: 14px; color: #fff; font-family: Arial, sans-serif; line-height: 1.5; }
 .clients-item img:hover { filter: grayscale(0); }
 
 
